@@ -1,0 +1,504 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding 0;
+}
+
+@font-face{
+    font-family: MyBanger;
+    src:
+        local('Bangers'),
+        url(../fonts/bangers.ttf);
+}
+
+@font-face{
+    font-family: MyEdwardianScriptITC;
+    src:
+        local('Edwardian Script ITC'),
+        url(../fonts/bradley.ttf);
+
+}
+
+@font-face{
+    font-family: MyRanga;
+    src:
+        local('Ranga-Regular'),
+        url(../fonts/Ranga-Regular.ttf);
+
+}
+
+.bg {
+    /* The image used */
+    background-image: url("../img/sopa_mixteca.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg2 {
+    /* The image used */
+    background-image: url("../img/t_bone.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-m{
+    /* The image used */
+    background-image: url("../img/lugar.png");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-v{
+    /* The image used */
+    background-image: url("../img/birria.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu-bg{
+    background-image: url("../img/symphony.png");
+}
+
+
+#map {
+    height: 100%;
+}
+
+/*.map {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    pointer-events: none;
+}*/
+
+/*.clicked{
+    pointer-events: auto;
+}*/
+
+nav ul li{
+    display:inline-block;
+    margin-right:20px;
+    cursor: pointer;
+    font-family: lobster;
+    font-size: 1.5em;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#ffc;
+    text-shadow: 2px 2px 3px #1d1d1d;
+    transition: color 0.4s ease;
+}
+
+nav ul li a:hover,
+nav ul li a:hover{
+    color: green;
+    text-shadow: 2px 2px 1px #1d1d1d;
+}
+
+.barra-nav{
+    margin: 0 auto;
+    padding-top: 8px; 
+    padding-bottom: 6px; 
+    position: fixed;
+    background-color: rgba(244,164,96,0.9);
+    width: 100%;
+    z-index: 10;
+}
+
+#menu,#about-us{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#responsability{
+    background-color: Goldenrod;
+}
+
+#content-responsability{
+    padding: 15px 15px 15px 15px;
+    /*color: #2d2d2d;*/
+}
+
+#content-menu,#content-menu-drinks{
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 1px 3px #1d1d1d;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+#content-menu-drinks{
+    margin-top: 80px;
+    background-color: Bisque;
+    color: Sienna;
+}
+
+#about-us{
+    background-color: Orange;
+}
+
+#content-us{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+#menu_title{
+}
+
+.line{
+    margin-bottom: 30px;
+}
+
+.line-up{
+    margin-top: 30px;
+}
+
+.draw-short-line{
+    width: 70px;
+    height: 2px;
+    border: none;
+    background: brown;
+}
+
+.title1{
+    /*font-family: 'Bangers', cursive;*/
+    font-family: MyBanger;
+    letter-spacing: 2px;
+    font-size: 2.3em;
+}
+
+.subtitle1{
+    font-family: MyEdwardianScriptITC;
+    font-size: 2.5em;
+}
+
+.subtitle2{
+    font-family: Baskerville Old Face;
+    font-size: 1.2em;
+}
+
+.indentation1{
+    margin-left: 200px;
+}
+
+.indentation2{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.indentation3{
+    margin-left: 50px;
+}
+
+.new-line1{
+    padding-bottom: 20px;
+}
+
+.new-line2{
+    padding-bottom: 50px;
+}
+
+.para{
+    font-family: Times New Roman;
+}
+
+.para2{
+    font-family: MyRanga;
+    font-size: 1.7em;
+}
+
+.para3{
+    font-family: calibri;
+    font-size: 1.5em;
+}
+
+.para4{
+    font-family: calibri;
+    font-weight: lighter;
+    font-size: 1.3em;
+    letter-spacing: -1px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+#logo{
+	position: absolute;
+	bottom: 25px;
+    right: 40px;
+	/*width: 400px;*/
+}
+
+p, h1, h2, h3{
+	margin: 0 auto;
+	padding: 0;
+}
+
+#footer{
+    position: relative;
+    height: auto;
+    background: brown;
+}
+
+img.logo-footer{
+    width: 25%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 22px;
+    padding: 0;
+    display: block;
+}
+
+.logo-footer{
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.table-footer{
+    width: 100%;
+}
+
+.td-footer{
+    width: 50%;
+}
+
+#designer{
+    /*position: absolute;*/
+}
+
+.designer{
+    color: white;
+    font-family: calibri;
+    font-size: 12pt;
+    margin-right: 5px;
+    padding-bottom: 5px;
+}
+
+.text-gold{
+    color: Gold;
+}
+
+.text-white{
+    color: white;
+}
+
+.fb-icon{
+    margin-top:10px;
+}
+
+#eat-with-us{
+    background: orange;
+    width: 350px;
+    height: 535px;
+    position: relative;
+    margin-top: -576px;
+    margin-left: 1000px;
+    padding: 30px 30px 10px 30px;
+    box-shadow: 0px 1px 3px #1d1d1d;
+}
+
+#mision-message{
+    background: white;
+    width: 350px;
+    height: 320px;
+    position: relative;
+    margin-top: -350px;
+    margin-left: 1000px;
+    padding: 30px 30px 0px 30px;
+    box-shadow: 0px 1px 3px #1d1d1d;
+}
+
+#vision-message{
+    background: black;
+    color: white;
+    width: 350px;
+    height: 335px;
+    position: relative;
+    margin-top: -365px;
+    margin-left: 100px;
+    padding: 30px 30px 0px 30px;
+    box-shadow: 0px 1px 3px #1d1d1d;
+}
+
+.uber{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 20%;
+    height: auto;
+}
+
+/*Estilos galería*/
+
+.wrapper, .wrapper-drinks {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 600px;
+}
+
+.wrapper-drinks {
+    margin-top: 100px;
+    margin-bottom: 800px;
+}
+
+.right {float: right !important;}
+
+/* Image zoom on hover + Overlay colour */
+.parent {
+    width: 25%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.child {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.bg-one {background-image: url('../img/alitas.jpg');}
+.bg-two {background-image: url('../img/sopa_casa.jpg');}
+.bg-three {background-image: url('../img/mole_coloradito.jpg');}
+.bg-four {background-image: url('../img/birria.jpg');}
+.bg-five {background-image: url('../img/sopa_mixteca.jpg');}
+.bg-six {background-image: url('../img/carnes_frias.jpg');}
+.bg-sev {background-image: url('../img/ensalada_petate.jpg');}
+.bg-eig {background-image: url('../img/molcajete_papaloapan.jpg');}
+
+.bg-nine {background-image: url('../img/agua.jpg');}
+.bg-ten {background-image: url('../img/mezcal.jpg');}
+.bg-elev {background-image: url('../img/media_seda.jpg');}
+.bg-twel {background-image: url('../img/chocolate.jpg');}
+.bg-thir {background-image: url('../img/michelada.jpg');}
+.bg-fourt {background-image: url('../img/capuchino.jpg');}
+.bg-fivet {background-image: url('../img/cafe_olla.jpg');}
+.bg-sixt {background-image: url('../img/crema_mezcal.jpg');}
+
+.parent:hover .child, .parent:focus .child {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.parent:hover .child:before, .parent:focus .child:before {
+    display: block;
+}
+
+.parent:hover a, .parent:focus a {
+    display: block;
+}
+
+.child:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(244,164,96,0.3);
+}
+
+/* Media Queries */
+@media (max-width:1430px){
+    #mision-message, #eat-with-us{
+        margin-left: 850px;
+    }
+}
+
+@media (max-width:1280px){
+    #mision-message, #eat-with-us{
+        margin-left: 690px;
+    }
+}
+
+@media (max-width:1120px){
+    #mision-message, #eat-with-us{
+        margin-left: 600px;
+    }
+}
+
+@media (max-width:1024px){
+    #bootstrap_overrides .dropdown-menu{
+        right: -5%;
+    }
+
+    #mision-message{
+        margin-left: 310px;
+    }
+
+    #eat-with-us{
+        margin-left: 310px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .parent {width: 100%; margin: 0px 0px}
+        .wrapper {padding: 0px 0px;}
+}
+
+@media (max-width:768px){
+    #bootstrap_overrides .dropdown-menu{
+        right: -10%;
+    }
+    nav ul li{
+        margin-right:18px;
+        font-size: 1.3em;
+    }
+    #mision-message, #eat-with-us{
+        margin-left: 0px;
+    }
+}
+
+@media (max-width:480px){
+    #bootstrap_overrides .dropdown-menu{
+        right: -30%;
+    }
+}
